@@ -1,9 +1,42 @@
 "use client";
 
+import ChatContainer from "@/components/chat/ChatContainer";
+import ChatHeader from "@/components/chat/ChatHeader";
+import ChatInput from "@/components/chat/ChatInput";
+import ChatMessages from "@/components/chat/ChatMessages";
+import { ChatMessage } from "@/components/chat/utils/chat.types";
 import { useEffect, useState } from "react";
 
 export default function Home() {
   const [telemetry, setTelemetry] = useState<any>(null);
+  const [messages, setMessages] = useState<ChatMessage[]>([]);
+
+  const handleSend = (message: string) => {
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      {
+        id: crypto.randomUUID(),
+        role: "user",
+        content: message,
+        timestamp: Date.now(),
+      },
+    ]);
+
+    const delayAndReply = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        {
+          id: crypto.randomUUID(),
+          role: "system",
+          content: `Rayda AI understands that you said: "${message}"`,
+          timestamp: Date.now(),
+        },
+      ]);
+    }
+
+    delayAndReply();
+  };
 
   useEffect(() => {
     const fetchTelemetry = async () => {
@@ -19,11 +52,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-amber-50">
-      <h2 className="text-2xl font-bold">System Telemetry</h2>
-      <div className="gap-2 p-4 w-[500px] flex flex-col bg-gray-50 rounded-lg shadow-md mt-4">
-        <pre>{telemetry && JSON.stringify(telemetry, null, 2)}</pre>
-      </div>
-    </div>
+    <ChatContainer>
+      <ChatHeader />
+      <ChatMessages messages={messages} />
+      <ChatInput onSend={handleSend} />
+    </ChatContainer>
   );
 }
