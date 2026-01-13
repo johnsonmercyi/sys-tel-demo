@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "../ui/button"
 import { Input } from "../ui/input"
 
-export const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
+const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
   const [message, setMessage] = useState("");
 
   const handleSend = () => {
@@ -28,3 +28,5 @@ export const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
     </div>
   );
 };
+
+export default ChatInput;

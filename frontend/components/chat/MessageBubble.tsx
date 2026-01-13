@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-export const MessageBubble = ({
+const MessageBubble = ({
   role,
   content,
 }: {
@@ -21,3 +21,5 @@ export const MessageBubble = ({
     </div>
   );
 };
+
+export default MessageBubble;
