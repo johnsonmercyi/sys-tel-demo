@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import { useState } from "react";
-import { Button } from "../ui/button"
-import { Input } from "../ui/input"
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
 import { SendIcon } from "lucide-react";
 
 const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
@@ -12,7 +12,7 @@ const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
     if (!message.trim()) return;
     onSend(message.trim());
     setMessage("");
-  }
+  };
 
   return (
     <div className="border-t border-gray-200">
@@ -25,10 +25,11 @@ const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
         />
         <Button
+          disabled={!message.trim()}
           className="h-10 w-10 rounded-full mt-2 absolute right-7 top-4 cursor-pointer hover:bg-primary/90 flex items-center justify-center p-0"
           onClick={handleSend}
         >
-          <SendIcon className="rotate-45"/>
+          <SendIcon className="rotate-45" />
         </Button>
       </div>
     </div>

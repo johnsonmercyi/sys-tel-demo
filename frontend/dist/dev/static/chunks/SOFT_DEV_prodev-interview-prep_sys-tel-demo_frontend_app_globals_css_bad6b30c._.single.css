@@ -1142,16 +1142,6 @@
     border-color: var(--muted-foreground);
   }
 
-  .border-muted-foreground\/50 {
-    border-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .border-muted-foreground\/50 {
-      border-color: color-mix(in oklab, var(--muted-foreground) 50%, transparent);
-    }
-  }
-
   .border-primary {
     border-color: var(--primary);
   }
@@ -1194,36 +1184,6 @@
     background-color: var(--background);
   }
 
-  .bg-background\/30 {
-    background-color: var(--background);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-background\/30 {
-      background-color: color-mix(in oklab, var(--background) 30%, transparent);
-    }
-  }
-
-  .bg-background\/60 {
-    background-color: var(--background);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-background\/60 {
-      background-color: color-mix(in oklab, var(--background) 60%, transparent);
-    }
-  }
-
-  .bg-background\/70 {
-    background-color: var(--background);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-background\/70 {
-      background-color: color-mix(in oklab, var(--background) 70%, transparent);
-    }
-  }
-
   .bg-destructive {
     background-color: var(--destructive);
   }
@@ -1250,28 +1210,8 @@
     background-color: var(--color-emerald-200);
   }
 
-  .bg-emerald-200\/50 {
-    background-color: #a4f4cf80;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-emerald-200\/50 {
-      background-color: color-mix(in oklab, var(--color-emerald-200) 50%, transparent);
-    }
-  }
-
   .bg-foreground {
     background-color: var(--foreground);
-  }
-
-  .bg-foreground\/90 {
-    background-color: var(--foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-foreground\/90 {
-      background-color: color-mix(in oklab, var(--foreground) 90%, transparent);
-    }
   }
 
   .bg-gray-50 {
@@ -1290,88 +1230,8 @@
     background-color: var(--muted-foreground);
   }
 
-  .bg-muted-foreground\/10 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/10 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 10%, transparent);
-    }
-  }
-
-  .bg-muted-foreground\/20 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/20 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 20%, transparent);
-    }
-  }
-
-  .bg-muted-foreground\/30 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/30 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 30%, transparent);
-    }
-  }
-
-  .bg-muted-foreground\/40 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/40 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 40%, transparent);
-    }
-  }
-
-  .bg-muted-foreground\/50 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/50 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 50%, transparent);
-    }
-  }
-
-  .bg-muted-foreground\/90 {
-    background-color: var(--muted-foreground);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-muted-foreground\/90 {
-      background-color: color-mix(in oklab, var(--muted-foreground) 90%, transparent);
-    }
-  }
-
   .bg-primary {
     background-color: var(--primary);
-  }
-
-  .bg-primary\/50 {
-    background-color: var(--primary);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-primary\/50 {
-      background-color: color-mix(in oklab, var(--primary) 50%, transparent);
-    }
-  }
-
-  .bg-primary\/70 {
-    background-color: var(--primary);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-primary\/70 {
-      background-color: color-mix(in oklab, var(--primary) 70%, transparent);
-    }
   }
 
   .bg-primary\/90 {
