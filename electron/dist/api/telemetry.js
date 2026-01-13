@@ -31,9 +31,45 @@ function collectTelemetry() {
         totalMemoryMB: Math.round(totalMem / (1024 * 1024)), // Total memory in MB
         freeMemoryMB: Math.round(freeMem / (1024 * 1024)), // Free memory in MB
         timestamp: Date.now(), // Current timestamp
+        networkAdapters: collectNetworkAdapters(), // Collect network adapters
     };
     latestSnapshot = snapshot; // Update latest snapshot
     return snapshot;
+}
+/**
+ * Collect network adapter information.
+ *
+ * ### Network Adapter Telemetry Limitations
+
+ * - Adapter driver versions are not consistently exposed across operating systems.
+ * - Node.js does not provide a cross-platform API for driver metadata.
+ * - Windows requires registry access (not used).
+ * - macOS requires private IOKit bindings (not used).
+ * - Linux driver data is distro-specific and unportable.
+
+ * This application intentionally uses Node.js best-effort APIs to ensure
+ * cross-platform compatibility and graceful degradation.
+
+ * @returns List of network adapters with limited metadata.
+ */
+function collectNetworkAdapters() {
+    const interfaces = os_1.default.networkInterfaces();
+    const adapters = [];
+    for (const [name, infos] of Object.entries(interfaces)) {
+        if (infos) {
+            for (const info of infos) {
+                adapters.push({
+                    name,
+                    mac: info.mac,
+                    family: info.family,
+                    internal: info.internal,
+                    address: info.address,
+                    deviceVersion: null, // intentionally unavailable
+                });
+            }
+        }
+    }
+    return adapters;
 }
 // Get latest telemetry snapshot
 function getLatestTelemetrySnapshot() {
