@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": [
+    "electron",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev:next --workspace=frontend\" \"npm run dev:electron --workspace=electron\"",
+    "build": "npm run build:next --workspace=frontend && npm run build:electron --workspace=electron",
+    "dist": "npm run dist --workspace=electron"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "cross-env": "^10.1.0"
+  }
+}

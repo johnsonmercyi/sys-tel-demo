@@ -1,0 +1,24 @@
+appId: com.soft.electronapp
+productName: SoftElectronDemo
+
+directories:
+  output: dist
+  buildResources: build
+
+files:
+  - "!**/*.ts"
+  - "!frontend/**"
+  - "main/**/*"
+  - "preload/**/*"
+  - "renderer/**/*"
+  - "frontend/**"
+
+win:
+  target:
+    - nsis
+
+extraResources:
+  - from: "../electron/frontend"
+    to: "frontend"
+    filter:
+      - "**/*"
