@@ -1,5 +1,5 @@
-appId: com.soft.electronapp
-productName: SoftElectronDemo
+appId: com.soft.systeldemo
+productName: SysTelDemo
 
 directories:
   output: dist
@@ -7,7 +7,6 @@ directories:
 
 files:
   - "!**/*.ts"
-  - "!frontend/**"
   - "main/**/*"
   - "preload/**/*"
   - "renderer/**/*"
@@ -18,7 +17,7 @@ win:
     - nsis
 
 extraResources:
-  - from: "../electron/frontend"
+  - from: "../frontend/dist"
     to: "frontend"
     filter:
       - "**/*"

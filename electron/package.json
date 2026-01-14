@@ -1,22 +1,21 @@
 {
   "name": "electron",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "dev:electron": "cross-env NODE_ENV=development electron ./dist/main.js",
     "build:electron": "tsc -p tsconfig.json",
-    "pack": "npm run build && electron-builder --dir",
-    "dist": "npm run build && electron-builder"
+    "pack": "npm run build:electron && electron-builder --dir",
+    "dist": "npm run build:electron && electron-builder"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "electron": "^39.2.5",
-    "electron-builder": "^26.0.12"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "electron": "^39.2.5",
+    "electron-builder": "^26.0.12",
     "@types/node": "^24.10.1",
     "concurrently": "^9.2.1",
     "cross-env": "^10.1.0",
@@ -24,10 +23,24 @@
     "wait-on": "^9.0.3"
   },
   "build": {
-    "appId": "com.soft.demo",
-    "productName": "ElectronCrossDemo",
+    "appId": "com.soft.systeldemo",
+    "productName": "SysTelDemo",
     "directories": {
       "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "frontend/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../frontend/dist",
+        "to": "frontend"
+      }
+    ],
+    "extraMetadata": {
+      "main": "dist/main.js"
     },
     "win": {
       "target": "nsis"

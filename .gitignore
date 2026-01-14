@@ -1,1 +1,5 @@
 node_modules
+release
+electron/dist
+frontend/dist
+frontend/.next
