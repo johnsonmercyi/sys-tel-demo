@@ -186,7 +186,11 @@ npm run build
 npm run dist
 ```
 
-Generates a packaged Electron application.
+Generates a packaged Electron application to:
+
+- Windows: `electron/release/win-unpacked/SysTelDemo.exe`
+- macOS: `electron/release/mac/SysTelDemo.app/Contents/MacOS/SysTelDemo`
+- Linux: `electron/release/linux-unpacked/SysTelDemo`
 
 ## 📝 Notes
 
