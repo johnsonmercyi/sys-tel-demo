@@ -98,6 +98,8 @@ The chat currently operates locally and is intentionally decoupled from telemetr
 ## 🔁 IPC Communication Flow
 
 Renderer and OS-level logic are strictly separated.
+
+```bash
 Renderer (Next.js UI)
 │
 │ IPC invoke (read-only)
@@ -111,8 +113,31 @@ Main Process (Electron)
 │ Node.js / OS APIs
 ▼
 System Telemetry
+```
 
 _Only explicitly exposed APIs are accessible to the renderer._
+
+---
+
+## 🔐 Permission-Based Task Execution (Design)
+
+For any action that mutates system state (e.g. running diagnostics, restarting services):
+
+1. The renderer requests an action via IPC
+2. The main process validates the request
+3. A user-facing confirmation dialog is shown
+4. Only after explicit consent is the task executed
+
+This prevents silent or unauthorized system operations and aligns with OS security expectations.
+
+---
+
+## 📸 Sample Telemetry Output
+
+Below is an example of telemetry injected into the chat UI during runtime.
+
+![Telemetry Sample 1](./screenshots/telemetry-img-1.png)
+![Telemetry Sample 2](./screenshots/telemetry-img-1.png)
 
 ---
 
