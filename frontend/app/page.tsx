@@ -10,6 +10,8 @@ import { use, useEffect, useState } from "react";
 export default function Home() {
   const [telemetry, setTelemetry] = useState<any>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [isTyping, setIsTyping] = useState(false);
+
 
   const handleSend = async (message: string) => {
     setMessages((prevMessages) => [
@@ -23,6 +25,7 @@ export default function Home() {
     ]);
 
     const delayAndReply = async (content: any) => {
+      setIsTyping(true);
       await new Promise((resolve) => setTimeout(resolve, 2000));
       setMessages((prevMessages) => [
         ...prevMessages,
@@ -33,6 +36,7 @@ export default function Home() {
           timestamp: Date.now(),
         },
       ]);
+      setIsTyping(false);
     };
 
     if (message.trim() === "View Telemetry") {
@@ -65,7 +69,7 @@ export default function Home() {
   return (
     <ChatContainer>
       <ChatHeader />
-      <ChatMessages messages={messages} handleButtonClick={handleSend} />
+      <ChatMessages messages={messages} handleButtonClick={handleSend} isTyping={isTyping} />
       <ChatInput onSend={handleSend} />
     </ChatContainer>
   );

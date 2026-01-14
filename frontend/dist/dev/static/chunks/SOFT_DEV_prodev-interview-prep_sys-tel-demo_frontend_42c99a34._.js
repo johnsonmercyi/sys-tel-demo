@@ -317,7 +317,11 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$MessageBubble$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/MessageBubble.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
 ;
 ;
 const welcomeButtons = [
@@ -325,7 +329,18 @@ const welcomeButtons = [
     "Get Started",
     "Help"
 ];
-const ChatMessages = ({ messages, handleButtonClick })=>{
+const ChatMessages = ({ messages, isTyping, handleButtonClick })=>{
+    _s();
+    const bottomRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ChatMessages.useEffect": ()=>{
+            bottomRef.current?.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    }["ChatMessages.useEffect"], [
+        messages
+    ]);
     const handleClick = (btn)=>{
         if (btn === "View Telemetry") {
             handleButtonClick("View Telemetry");
@@ -342,7 +357,7 @@ const ChatMessages = ({ messages, handleButtonClick })=>{
                         children: "🤖"
                     }, void 0, false, {
                         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                        lineNumber: 22,
+                        lineNumber: 33,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -355,12 +370,12 @@ const ChatMessages = ({ messages, handleButtonClick })=>{
                                     children: "Hey, I'm Rayda AI Assistant! How can I assist you today?"
                                 }, void 0, false, {
                                     fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                                lineNumber: 26,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -371,24 +386,24 @@ const ChatMessages = ({ messages, handleButtonClick })=>{
                                         children: btn
                                     }, btn, false, {
                                         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 44,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                                lineNumber: 31,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                        lineNumber: 25,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                lineNumber: 21,
+                lineNumber: 32,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             messages.map((msg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$MessageBubble$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -396,16 +411,32 @@ const ChatMessages = ({ messages, handleButtonClick })=>{
                     content: msg.content
                 }, msg.id, false, {
                     fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-                    lineNumber: 45,
+                    lineNumber: 56,
                     columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)))
+                }, ("TURBOPACK compile-time value", void 0))),
+            isTyping && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "text-muted-foreground italic text-sm ml-12 py-2",
+                children: "Typing..."
+            }, void 0, false, {
+                fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
+                lineNumber: 59,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                ref: bottomRef
+            }, void 0, false, {
+                fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
+                lineNumber: 63,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx",
-        lineNumber: 20,
+        lineNumber: 31,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(ChatMessages, "eaUWg0io6wE0buoFSqU1QLjVsUo=");
 _c = ChatMessages;
 const __TURBOPACK__default__export__ = ChatMessages;
 var _c;
@@ -439,6 +470,7 @@ function Home() {
     _s();
     const [telemetry, setTelemetry] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [messages, setMessages] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [isTyping, setIsTyping] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const handleSend = async (message)=>{
         setMessages((prevMessages)=>[
                 ...prevMessages,
@@ -450,6 +482,7 @@ function Home() {
                 }
             ]);
         const delayAndReply = async (content)=>{
+            setIsTyping(true);
             await new Promise((resolve)=>setTimeout(resolve, 2000));
             setMessages((prevMessages)=>[
                     ...prevMessages,
@@ -460,6 +493,7 @@ function Home() {
                         timestamp: Date.now()
                     }
                 ]);
+            setIsTyping(false);
         };
         if (message.trim() === "View Telemetry") {
             console.log("User message:", message);
@@ -470,7 +504,7 @@ function Home() {
                 children: JSON.stringify(data, null, 2)
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 43,
+                lineNumber: 47,
                 columnNumber: 9
             }, this));
         } else {
@@ -497,32 +531,33 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 67,
+                lineNumber: 71,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatMessages$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 messages: messages,
-                handleButtonClick: handleSend
+                handleButtonClick: handleSend,
+                isTyping: isTyping
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 68,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatInput$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 onSend: handleSend
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 69,
+                lineNumber: 73,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-        lineNumber: 66,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }
-_s(Home, "AEws9uNqP3imCk66lzXqQr1cRso=");
+_s(Home, "ZYlahfatciLTDXUotxUaPB+8Oks=");
 _c = Home;
 var _c;
 __turbopack_context__.k.register(_c, "Home");

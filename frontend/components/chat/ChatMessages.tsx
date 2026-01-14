@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import MessageBubble from "./MessageBubble";
 import { ChatMessage } from "./utils/chat.types";
 
@@ -5,11 +8,19 @@ const welcomeButtons = ["View Telemetry", "Get Started", "Help"];
 
 const ChatMessages = ({
   messages,
+  isTyping,
   handleButtonClick,
 }: {
   messages: ChatMessage[];
+  isTyping: boolean;
   handleButtonClick: (btnText: string) => void;
 }) => {
+  const bottomRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
   const handleClick = (btn: string) => {
     if (btn === "View Telemetry") {
       handleButtonClick("View Telemetry");
@@ -44,6 +55,12 @@ const ChatMessages = ({
       {messages.map((msg) => (
         <MessageBubble key={msg.id} role={msg.role} content={msg.content} />
       ))}
+      {isTyping && (
+        <span className="text-muted-foreground italic text-sm ml-12 py-2">
+          Typing...
+        </span>
+      )}
+      <div ref={bottomRef} />
     </div>
   );
 };
