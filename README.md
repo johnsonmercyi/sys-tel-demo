@@ -52,6 +52,7 @@ Currently collected data includes:
 
 ### Best-effort approach
 
+This approach avoids OS-specific hacks that may be unstable or non-portable across platforms.
 Not all operating systems expose the same telemetry fields.  
 Missing or unavailable values are handled gracefully and returned as `null` rather than causing failures.
 
@@ -99,7 +100,7 @@ The chat currently operates locally and is intentionally decoupled from telemetr
 
 Renderer and OS-level logic are strictly separated.
 
-```bash
+```text
 Renderer (Next.js UI)
 │
 │ IPC invoke (read-only)
@@ -132,7 +133,7 @@ This prevents silent or unauthorized system operations and aligns with OS securi
 
 ---
 
-## 📸 Sample Telemetry Output
+## 📸 Sample Telemetry Injection (Runtime)
 
 Below is an example of telemetry injected into the chat UI during runtime.
 
