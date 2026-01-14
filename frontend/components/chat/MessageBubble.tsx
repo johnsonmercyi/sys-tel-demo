@@ -19,14 +19,14 @@ const MessageBubble = ({
         className={clsx(
           "w-fit max-w-[70%] px-4 py-2 rounded-lg text-sm",
           isUser
-            ? "ml-auto bg-primary/90 border text-white rounded-br-none"
+            ? "ml-auto bg-primary/90 border  text-white rounded-br-none"
             : "mr-auto bg-emerald-50 border rounded-bl-none"
         )}
       >
         {content}
       </div>
       {isUser && (
-        <div className="h-10 w-10 rounded-full bg-primary/90 flex items-center justify-center text-white text-xl border border-emerald-200">
+        <div className="h-10 w-10 rounded-full bg-primary/90 flex items-center justify-center text-white text-xl border border-sidebar-ring">
           U
         </div>
       )}

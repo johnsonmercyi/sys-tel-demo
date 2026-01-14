@@ -1,9 +1,1000 @@
-[00:00:06.636] Server  LOG      ✓ Ready in 4.7s
-[00:00:09.682] Server  LOG      ○ Compiling / ...
-[00:00:20.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:46.284] Server  LOG      ✓ Compiled in 266ms
-[00:01:47.099] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:05.089] Server  LOG      ✓ Ready in 3.6s
+[00:00:08.117] Server  LOG      ○ Compiling / ...
+[00:00:11.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:35.318] Server  LOG      ✓ Compiled in 194ms
+[00:00:36.495] Server  LOG      ✓ Compiled in 133ms
+[00:00:42.556] Server  LOG      ✓ Compiled in 91ms
+[00:00:47.588] Server  LOG      ✓ Compiled in 124ms
+[00:00:55.432] Server  LOG      ✓ Compiled in 101ms
+[00:01:00.785] Server  LOG      ✓ Compiled in 109ms
+[00:01:11.664] Server  LOG      ✓ Compiled in 98ms
+[00:01:26.705] Server  LOG      ✓ Compiled in 134ms
+[00:01:40.616] Server  LOG      ✓ Compiled in 103ms
+[00:01:44.220] Server  LOG      ✓ Compiled in 107ms
+[00:02:08.816] Server  LOG      ✓ Compiled in 134ms
+[00:02:20.968] Server  LOG      ✓ Compiled in 127ms
+[00:02:24.718] Server  LOG      ✓ Compiled in 130ms
+[00:02:27.857] Server  LOG      ✓ Compiled in 89ms
+[00:02:33.168] Server  LOG      ✓ Compiled in 128ms
+[00:02:35.343] Server  LOG      ✓ Compiled in 109ms
+[00:02:50.028] Server  LOG      ✓ Compiled in 87ms
+[00:03:03.622] Server  LOG      ✓ Compiled in 92ms
+[00:03:08.250] Server  LOG      ✓ Compiled in 86ms
+[00:03:17.145] Server  LOG      ✓ Compiled in 120ms
+[00:03:18.783] Server  LOG      ✓ Compiled in 426ms
+[00:03:24.273] Server  LOG      ✓ Compiled in 96ms
+[00:03:24.547] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[00:03:25.422] Server  LOG      ✓ Compiled in 116ms
+[00:03:30.829] Server  LOG      ✓ Compiled in 81ms
+[00:03:38.002] Server  LOG      ✓ Compiled in 89ms
+[00:03:53.840] Server  LOG      ✓ Compiled in 130ms
+[00:04:04.726] Server  LOG      ✓ Compiled in 92ms
+[00:04:09.930] Server  LOG      ✓ Compiled in 92ms
+[00:04:11.631] Server  LOG      ✓ Compiled in 125ms
+[00:04:20.106] Server  LOG      ✓ Compiled in 98ms
+[00:04:41.021] Server  LOG      ✓ Compiled in 108ms
+[00:04:53.847] Server  LOG      ✓ Compiled in 182ms
+[00:04:58.838] Server  LOG      ✓ Compiled in 99ms
+[00:05:02.705] Server  LOG      ✓ Compiled in 90ms
+[00:05:06.826] Server  LOG      ✓ Compiled in 95ms
+[00:05:11.689] Server  LOG      ✓ Compiled in 89ms
+[00:05:14.744] Server  LOG      ✓ Compiled in 100ms
+[00:05:21.391] Server  LOG      ✓ Compiled in 93ms
+[00:05:23.870] Server  LOG      ✓ Compiled in 85ms
+[00:05:45.916] Server  LOG      ✓ Compiled in 149ms
+[00:05:49.485] Server  LOG      ✓ Compiled in 86ms
+[00:06:02.528] Server  LOG      ✓ Compiled in 156ms
+[00:06:27.409] Server  LOG      ✓ Compiled in 128ms
+[00:06:29.677] Server  LOG      ✓ Compiled in 94ms
+[00:06:31.622] Server  LOG      ✓ Compiled in 85ms
+[00:06:31.829] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true disa disa true disa
-[00:01:49.033] Server  LOG      ✓ Compiled in 227ms
-[00:01:52.473] Server  LOG      ✓ Compiled in 369ms
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[00:06:33.595] Server  LOG      ✓ Compiled in 173ms
+[00:06:42.720] Server  LOG      ✓ Compiled in 89ms
+[00:06:49.665] Server  LOG      ✓ Compiled in 90ms
+[00:07:00.216] Server  LOG      ✓ Compiled in 90ms
+[00:07:20.618] Server  LOG      ✓ Compiled in 90ms
+[00:07:25.148] Server  LOG      ✓ Compiled in 90ms
+[00:07:33.654] Server  LOG      ✓ Compiled in 97ms
+[00:07:35.189] Server  LOG      ✓ Compiled in 90ms
+[00:07:36.495] Server  LOG      ✓ Compiled in 88ms
+[00:07:39.297] Server  LOG      ✓ Compiled in 87ms
+[00:07:55.763] Server  LOG      ✓ Compiled in 124ms
+[00:07:57.525] Server  LOG      ✓ Compiled in 115ms
+[00:08:02.468] Server  LOG      ✓ Compiled in 158ms
+[00:08:07.864] Server  LOG      ✓ Compiled in 98ms
+[00:08:15.934] Server  LOG      ✓ Compiled in 167ms
+[00:08:19.332] Server  LOG      ✓ Compiled in 137ms
+[00:08:23.986] Server  LOG      ✓ Compiled in 102ms
+[00:08:27.261] Server  LOG      ✓ Compiled in 92ms
+[00:08:31.934] Server  LOG      ✓ Compiled in 144ms
+[00:08:34.579] Server  LOG      ✓ Compiled in 118ms
+[00:08:39.648] Server  LOG      ✓ Compiled in 169ms
+[00:08:52.822] Server  LOG      ✓ Compiled in 91ms
+[00:08:55.453] Server  LOG      ✓ Compiled in 94ms
+[00:08:57.592] Server  LOG      ✓ Compiled in 85ms
+[00:09:02.806] Server  LOG      ✓ Compiled in 160ms
+[00:09:16.810] Server  LOG      ✓ Compiled in 136ms
+[00:09:21.268] Server  LOG      ✓ Compiled in 85ms
+[00:09:40.408] Server  LOG      ✓ Compiled in 211ms
+[00:09:48.980] Server  LOG      ✓ Compiled in 113ms
+[00:09:58.462] Server  LOG      ✓ Compiled in 98ms
+[00:10:01.623] Server  LOG      ✓ Compiled in 91ms
+[00:10:08.243] Server  LOG      ✓ Compiled in 94ms
+[00:10:17.462] Server  LOG      ✓ Compiled in 91ms
+[00:10:31.729] Server  LOG      ✓ Compiled in 137ms
+[00:10:35.677] Server  LOG      ✓ Compiled in 88ms
+[00:10:37.239] Server  LOG      ✓ Compiled in 117ms
+[00:10:39.752] Server  LOG      ✓ Compiled in 99ms
+[00:10:53.124] Server  LOG      ✓ Compiled in 94ms
+[00:11:34.749] Server  LOG      ✓ Compiled in 234ms
+[00:11:37.541] Server  LOG      ✓ Compiled in 96ms
+[00:11:39.504] Server  LOG      ✓ Compiled in 151ms
+[00:11:42.297] Server  LOG      ✓ Compiled in 91ms
+[00:11:43.650] Server  LOG      ✓ Compiled in 95ms
+[00:11:50.032] Server  LOG      ✓ Compiled in 104ms
+[00:12:12.596] Server  LOG      ✓ Compiled in 139ms
+[00:12:18.294] Server  LOG      ✓ Compiled in 83ms
+[00:12:21.713] Server  LOG      ✓ Compiled in 156ms
+[00:13:03.415] Server  LOG      ✓ Compiled in 102ms
+[00:13:05.856] Server  LOG      ✓ Compiled in 258ms
+[00:13:07.355] Server  LOG      ✓ Compiled in 106ms
+[00:13:10.795] Server  LOG      ✓ Compiled in 168ms
+[00:13:53.216] Server  LOG      ✓ Compiled in 101ms
+[00:14:03.421] Server  LOG      ✓ Compiled in 170ms
+[00:14:03.569] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:7
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons
+    |       ^^^^^^^^^^^^^^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:14:05.529] Server  LOG      ✓ Compiled in 179ms
+[00:14:15.490] Server  LOG      ✓ Compiled in 371ms
+[00:14:17.552] Server  LOG      ✓ Compiled in 90ms
+[00:14:21.524] Server  LOG      ✓ Compiled in 87ms
+[00:15:41.004] Server  LOG      ✓ Compiled in 398ms
+[00:15:44.064] Server  LOG      ✓ Compiled in 111ms
+[00:15:59.249] Server  LOG      ✓ Compiled in 1136ms
+[00:15:59.433] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:22:9
+Parsing ecmascript source code failed
+  20 |         {
+  21 |           welcomeButtons.map((btn) => (
+> 22 |         }
+     |         ^
+  23 |         <div className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90">View Telemetry</div>
+  24 |       </div>
+  25 |       {messages.map((msg) => (
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:16:01.260] Server  LOG      ✓ Compiled in 112ms
+[00:16:12.082] Server  LOG      ✓ Compiled in 111ms
+[00:21:17.635] Server  LOG      ✓ Compiled in 245ms
+[00:21:20.402] Server  LOG      ✓ Compiled in 154ms
+[00:21:21.660] Server  LOG      ✓ Compiled in 137ms
+[00:21:34.095] Server  LOG      ✓ Compiled in 458ms
+[00:21:36.590] Server  LOG      ✓ Compiled in 164ms
+[00:21:39.731] Server  LOG      ✓ Compiled in 109ms
+[00:21:40.994] Server  LOG      ✓ Compiled in 101ms
+[00:21:43.371] Server  LOG      ✓ Compiled in 92ms
+[00:21:45.293] Server  LOG      ✓ Compiled in 95ms
+[00:21:48.087] Server  LOG      ✓ Compiled in 84ms
+[00:22:00.123] Server  LOG      ✓ Compiled in 82ms
+[00:22:02.905] Server  LOG      ✓ Compiled in 93ms
+[00:22:09.856] Server  LOG      ✓ Compiled in 159ms
+[00:22:56.504] Server  LOG      ✓ Compiled in 129ms
+[00:22:59.371] Server  LOG      ✓ Compiled in 140ms
+[00:23:25.696] Server  LOG      ✓ Compiled in 227ms
+[00:23:30.128] Server  LOG      ✓ Compiled in 117ms
+[00:23:32.457] Server  LOG      ✓ Compiled in 139ms
+[00:23:35.141] Server  LOG      ✓ Compiled in 128ms
+[00:29:51.406] Server  LOG      ✓ Compiled in 262ms
+[00:29:59.854] Server  LOG      ✓ Compiled in 111ms
+[00:30:50.203] Server  LOG      ✓ Compiled in 138ms
+[00:31:39.893] Server  LOG      ✓ Compiled in 113ms
+[00:32:21.880] Server  LOG      ✓ Compiled in 207ms
+[00:32:24.471] Server  LOG      ✓ Compiled in 102ms
+[00:32:29.011] Server  LOG      ✓ Compiled in 120ms
+[00:32:51.500] Server  LOG      ✓ Compiled in 120ms
+[00:32:59.426] Server  LOG      ✓ Compiled in 94ms
+[00:33:13.662] Server  LOG      ✓ Compiled in 209ms
+[00:33:21.398] Server  LOG      ✓ Compiled in 136ms
+[00:33:21.517] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:23:15
+Parsing ecmascript source code failed
+  21 |               key={btn}
+  22 |               className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90"
+> 23 |               </div>
+     |               ^
+  24 |             >
+  25 |               {btn}
+  26 |             </div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:33:21.517] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:23:16
+Parsing ecmascript source code failed
+  21 |               key={btn}
+  22 |               className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90"
+> 23 |               </div>
+     |                ^^^^^
+  24 |             >
+  25 |               {btn}
+  26 |             </div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:33:25.348] Server  LOG      ✓ Compiled in 143ms
+[00:33:28.306] Server  LOG      ✓ Compiled in 109ms
+[00:33:29.659] Server  LOG      ✓ Compiled in 229ms
+[00:33:35.517] Server  LOG      ✓ Compiled in 105ms
+[00:33:47.238] Server  LOG      ✓ Compiled in 103ms
+[00:33:48.982] Server  LOG      ✓ Compiled in 104ms
+[00:33:50.929] Server  LOG      ✓ Compiled in 106ms
+[00:33:56.173] Server  LOG      ✓ Compiled in 128ms
+[00:33:57.288] Server  LOG      ✓ Compiled in 93ms
+[00:34:29.420] Server  LOG      ✓ Compiled in 160ms
+[00:34:32.046] Server  LOG      ✓ Compiled in 159ms
+[00:34:37.547] Server  LOG      ✓ Compiled in 483ms
+[00:35:07.155] Server  LOG      ✓ Compiled in 225ms
+[00:35:11.921] Server  LOG      ✓ Compiled in 148ms
+[00:35:18.787] Server  LOG      ✓ Compiled in 214ms
+[00:35:42.279] Server  LOG      ✓ Compiled in 128ms
+[00:35:44.275] Server  LOG      ✓ Compiled in 100ms
+[00:35:47.166] Server  LOG      ✓ Compiled in 127ms
+[00:37:52.203] Server  LOG      ✓ Compiled in 273ms
+[00:37:56.131] Server  LOG      ✓ Compiled in 108ms
+[00:38:08.556] Server  LOG      ✓ Compiled in 105ms
+[00:38:10.893] Server  LOG      ✓ Compiled in 296ms
+[00:38:20.578] Server  LOG      ✓ Compiled in 96ms
+[00:38:32.626] Server  LOG      ✓ Compiled in 196ms
+[00:39:36.474] Server  LOG      ✓ Compiled in 182ms
+[00:39:41.330] Server  LOG      ✓ Compiled in 164ms
+[00:39:46.833] Server  LOG      ✓ Compiled in 105ms
+[00:39:51.947] Server  LOG      ✓ Compiled in 92ms
+[00:40:10.082] Server  LOG      ✓ Compiled in 95ms
+[00:40:12.699] Server  LOG      ✓ Compiled in 94ms
+[00:40:14.597] Server  LOG      ✓ Compiled in 113ms
+[00:40:18.357] Server  LOG      ✓ Compiled in 174ms
+[00:40:45.750] Server  LOG      ✓ Compiled in 267ms
+[00:40:48.779] Server  LOG      ✓ Compiled in 134ms
+[00:40:52.250] Server  LOG      ✓ Compiled in 132ms
+[00:42:11.472] Server  LOG      ✓ Compiled in 343ms
+[00:42:42.196] Server  LOG      ✓ Compiled in 177ms
+[00:42:48.913] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:26.414] Server  LOG      ✓ Compiled in 179ms
+[00:43:40.701] Server  LOG      ✓ Compiled in 163ms
+[00:44:31.135] Server  LOG      ✓ Compiled in 133ms
+[00:44:35.646] Server  LOG      ✓ Compiled in 220ms
+[00:44:43.295] Server  LOG      ✓ Compiled in 325ms
+[00:45:05.708] Server  LOG      ✓ Compiled in 150ms
+[00:46:18.492] Server  LOG      ✓ Compiled in 255ms
+[00:46:23.683] Server  LOG      ✓ Compiled in 100ms
+[00:46:27.235] Server  LOG      ✓ Compiled in 109ms
+[00:47:28.977] Server  LOG      ✓ Compiled in 281ms
+[00:47:30.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:42
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons = [{"View Telemetry"}, "Get Started", "Help"];
+    |                                          ^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:47:34.633] Server  LOG      ✓ Compiled in 117ms
+[00:47:35.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:33
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons = [{onClick"View Telemetry"}, "Get Started", "Help"];
+    |                                 ^^^^^^^^^^^^^^^^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+Unexpected token `string literal (View Telemetry, "View Telemetry")`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:47:58.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:31
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons = [{onCli"View Telemetry"}, "Get Started", "Help"];
+    |                               ^^^^^^^^^^^^^^^^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+Unexpected token `string literal (View Telemetry, "View Telemetry")`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:00.064] Server  LOG      ✓ Compiled in 104ms
+[00:48:01.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:42
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons = [{"View Telemetry"}, "Get Started", "Help"];
+    |                                          ^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:01.729] Server  LOG      ✓ Compiled in 141ms
+[00:48:02.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:4:41
+Parsing ecmascript source code failed
+  2 | import { ChatMessage } from "./utils/chat.types";
+  3 |
+> 4 | const welcomeButtons = ["View Telemetry"}, "Get Started", "Help"];
+    |                                         ^
+  5 |
+  6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+  7 |   return (
+
+Expected ',', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:04.025] Server  LOG      ✓ Compiled in 123ms
+[00:48:07.924] Server  LOG      ✓ Compiled in 110ms
+[00:48:09.763] Server  LOG      ✓ Compiled in 284ms
+[00:48:11.045] Browser ERROR   uncaughtError: ReferenceError: con is not defined
+[00:48:11.886] Server  LOG      ✓ Compiled in 220ms
+[00:48:12.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:10:3
+Parsing ecmascript source code failed
+   8 |   const 
+   9 |
+> 10 |   return (
+     |   ^^^^^^
+  11 |     <div className="flex-1 overflow-y-auto p-4 py-6 space-y-3 chat-bg">
+  12 |       <div className="flex gap-2">
+  13 |         <div className="h-10 w-10 rounded-full bg-emerald-100/50 flex items-center justify-center text-xl border border-primary/30">
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:13.995] Server  LOG      ✓ Compiled in 112ms
+[00:48:15.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:8:9
+Parsing ecmascript source code failed
+   6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+   7 |
+>  8 |   const handle
+     |         ^^^^^^
+   9 |
+  10 |   return (
+  11 |     <div className="flex-1 overflow-y-auto p-4 py-6 space-y-3 chat-bg">
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:17.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:8:9
+Parsing ecmascript source code failed
+   6 | const ChatMessages = ({ messages }: { messages: ChatMessage[] }) => {
+   7 |
+>  8 |   const handleClick
+     |         ^^^^^^^^^^^
+   9 |
+  10 |   return (
+  11 |     <div className="flex-1 overflow-y-auto p-4 py-6 space-y-3 chat-bg">
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:21.493] Server  LOG      ✓ Compiled in 101ms
+[00:48:22.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:10:3
+Parsing ecmascript source code failed
+   8 |   const handleClick = 
+   9 |
+> 10 |   return (
+     |   ^^^^^^
+  11 |     <div className="flex-1 overflow-y-auto p-4 py-6 space-y-3 chat-bg">
+  12 |       <div className="flex gap-2">
+  13 |         <div className="h-10 w-10 rounded-full bg-emerald-100/50 flex items-center justify-center text-xl border border-primary/30">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:22.952] Server  LOG      ✓ Compiled in 96ms
+[00:48:24.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:41:1
+Parsing ecmascript source code failed
+  39 | };
+  40 |
+> 41 | export default ChatMessages;
+     | ^^^^^^
+  42 |
+
+'import', and 'export' cannot be used outside of module code
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:27.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:42:1
+Parsing ecmascript source code failed
+  40 | };
+  41 |
+> 42 | export default ChatMessages;
+     | ^^^^^^
+  43 |
+
+'import', and 'export' cannot be used outside of module code
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:48:31.076] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:48:31.099] Server  LOG      ✓ Compiled in 101ms
+[00:48:31.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:49:15.049] Server  LOG      ✓ Compiled in 175ms
+[00:51:17.270] Server  LOG      ✓ Compiled in 204ms
+[00:51:35.622] Server  LOG      ✓ Compiled in 194ms
+[00:51:37.716] Server  LOG      ✓ Compiled in 105ms
+[00:51:58.184] Server  LOG      ✓ Compiled in 100ms
+[00:52:00.093] Server  LOG      ✓ Compiled in 153ms
+[00:52:10.907] Server  LOG      ✓ Compiled in 93ms
+[00:52:23.900] Server  LOG      ✓ Compiled in 111ms
+[00:52:48.413] Server  LOG      ✓ Compiled in 98ms
+[00:52:51.784] Server  LOG      ✓ Compiled in 132ms
+[00:52:52.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:32:17
+Parsing ecmascript source code failed
+  30 |                 key={btn}
+  31 |                 onClick={}
+> 32 |                 className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90 text-center shadow-md"
+     |                 ^^^^^^^^^
+  33 |               >
+  34 |                 {btn}
+  35 |               </div>
+
+Expected '</', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:52:52.804] Server  LOG      ✓ Compiled in 99ms
+[00:53:38.718] Server  LOG      ✓ Compiled in 221ms
+[00:53:41.478] Server  LOG      ✓ Compiled in 110ms
+[00:53:44.577] Server  LOG      ✓ Compiled in 108ms
+[00:53:45.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:8:27
+Parsing ecmascript source code failed
+   6 | const ChatMessages = ({ messages, handleSend }: { messages: ChatMessage[], handleSend: (msg: string) => void}) => {
+   7 |
+>  8 |   const handleClick = (e: , btn: string) => {
+     |                           ^
+   9 |     if (btn === "View Telemetry") {
+  10 |       handleSend("View Telemetry");
+  11 |     }
+
+Unexpected token `,`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:53:46.966] Server  LOG      ✓ Compiled in 109ms
+[00:53:57.232] Server  LOG      ✓ Compiled in 108ms
+[00:54:01.623] Server  LOG      ✓ Compiled in 107ms
+[00:54:02.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:31:28
+Parsing ecmascript source code failed
+  29 |               <div
+  30 |                 key={btn}
+> 31 |                 onClick={()}
+     |                            ^
+  32 |                 className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90 text-center shadow-md"
+  33 |               >
+  34 |                 {btn}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:54:04.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx:31:31
+Parsing ecmascript source code failed
+  29 |               <div
+  30 |                 key={btn}
+> 31 |                 onClick={() =>}
+     |                               ^
+  32 |                 className="p-1 px-2 bg-primary border border-sidebar-ring w-fit text-white text-sm rounded-full font-medium cursor-pointer hover:bg-primary/90 text-center shadow-md"
+  33 |               >
+  34 |                 {btn}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/components/chat/ChatMessages.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:54:11.957] Server  LOG      ✓ Compiled in 139ms
+[00:54:15.117] Server  LOG      ✓ Compiled in 152ms
+[00:54:27.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:00.254] Server  LOG      ✓ Compiled in 352ms
+[00:56:02.412] Server  LOG      ✓ Compiled in 171ms
+[00:56:05.041] Server  LOG      ✓ Compiled in 115ms
+[00:56:08.931] Server  LOG      ✓ Compiled in 128ms
+[00:56:13.920] Server  LOG      ✓ Compiled in 112ms
+[00:56:54.772] Server  LOG      ✓ Compiled in 101ms
+[00:57:14.672] Server  LOG      ✓ Compiled in 190ms
+[00:57:15.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:25:9
+Parsing ecmascript source code failed
+  23 |     ]);
+  24 |
+> 25 |     if () {
+     |         ^
+  26 |       
+  27 |     }
+  28 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:57:19.130] Server  LOG      ✓ Compiled in 106ms
+[00:57:20.699] Server  LOG      ✓ Compiled in 110ms
+[00:57:46.394] Server  LOG      ✓ Compiled in 128ms
+[00:57:49.840] Server  LOG      ✓ Compiled in 122ms
+[00:57:50.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const 
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Unexpected token `}`. Expected yield, an identifier, [ or {
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:57:54.073] Server  LOG      ✓ Compiled in 124ms
+[00:57:57.949] Server  LOG      ✓ Compiled in 114ms
+[00:57:58.046] Browser ERROR   uncaughtError: ReferenceError: use is not defined
+[00:57:59.623] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:57:59.924] Server  LOG      ✓ Compiled in 433ms
+[00:58:00.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:12.405] Server  LOG      ✓ Compiled in 165ms
+[00:58:16.193] Server  LOG      ✓ Compiled in 136ms
+[00:58:17.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const 
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Unexpected token `}`. Expected yield, an identifier, [ or {
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:18.148] Server  LOG      ✓ Compiled in 133ms
+[00:58:19.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:26:13
+Parsing ecmascript source code failed
+  24 |
+  25 |     if (message === "View Telemetry") {
+> 26 |       const tele
+     |             ^^^^
+  27 |
+  28 |     }
+  29 |
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:21.176] Server  LOG      ✓ Compiled in 104ms
+[00:58:22.044] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const 
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Unexpected token `}`. Expected yield, an identifier, [ or {
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:28.867] Server  LOG      ✓ Compiled in 104ms
+[00:58:29.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const data = 
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:33.291] Server  LOG      ✓ Compiled in 169ms
+[00:58:34.043] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const data = window.
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:36.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:28:5
+Parsing ecmascript source code failed
+  26 |       const data = window.electron.
+  27 |
+> 28 |     }
+     |     ^
+  29 |
+  30 |     const delayAndReply = async () => {
+  31 |       await new Promise((resolve) => setTimeout(resolve, 2000));
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:58:41.368] Server  LOG      ✓ Compiled in 108ms
+[00:58:48.979] Server  LOG      ✓ Compiled in 126ms
+[00:58:50.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:26:20
+Parsing ecmascript source code failed
+  24 |
+  25 |     if (message === "View Telemetry") {
+> 26 |       const data = await window.electron.getTelemetry();
+     |                    ^^^^^
+  27 |
+  28 |     }
+  29 |
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[00:59:09.654] Server  LOG      ✓ Compiled in 100ms
+[00:59:12.604] Server  LOG      ✓ Compiled in 94ms
+[00:59:57.977] Server  LOG      ✓ Compiled in 179ms
+[01:00:16.264] Server  LOG      ✓ Compiled in 178ms
+[01:00:18.975] Server  LOG      ✓ Compiled in 103ms
+[01:00:21.553] Server  LOG      ✓ Compiled in 127ms
+[01:00:22.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:30:7
+Parsing ecmascript source code failed
+  28 |
+  29 |       setMessages((prevMessages) => [
+> 30 |       return;
+     |       ^^^^^^
+  31 |     }
+  32 |
+  33 |     const delayAndReply = async () => {
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[01:00:23.559] Server  LOG      ✓ Compiled in 102ms
+[01:00:24.045] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:32:13
+Parsing ecmascript source code failed
+  30 |         ...prevMessages,
+  31 |         {
+> 32 |       return;
+     |             ^
+  33 |     }
+  34 |
+  35 |     const delayAndReply = async () => {
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[01:00:27.213] Server  LOG      ✓ Compiled in 137ms
+[01:00:28.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:32:7
+Parsing ecmascript source code failed
+  30 |         ...prevMessages,
+  31 |         {}
+> 32 |       return;
+     |       ^^^^^^
+  33 |     }
+  34 |
+  35 |     const delayAndReply = async () => {
+
+Expected ',', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[01:00:28.814] Server  LOG      ✓ Compiled in 217ms
+[01:00:29.046] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:31:11
+Parsing ecmascript source code failed
+  29 |       setMessages((prevMessages) => [
+  30 |         ...prevMessages,
+> 31 |         {})
+     |           ^
+  32 |       return;
+  33 |     }
+  34 |
+
+Expected ',', got ')'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[01:00:37.421] Server  LOG      ✓ Compiled in 108ms
+[01:00:38.043] Browser ERROR   ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx:32:7
+Parsing ecmascript source code failed
+  30 |         ...prevMessages,
+  31 |         {}]
+> 32 |       return;
+     |       ^^^^^^
+  33 |     }
+  34 |
+  35 |     const delayAndReply = async () => {
+
+Expected ',', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component Browser]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Client Component SSR]
+    ./SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx [Server Component]
+[01:00:40.431] Server  LOG      ✓ Compiled in 162ms
+[01:00:53.013] Server  LOG      ✓ Compiled in 107ms
+[01:01:03.947] Server  LOG      ✓ Compiled in 109ms
+[01:01:19.709] Server  LOG      ✓ Compiled in 186ms
+[01:01:31.730] Server  LOG      ✓ Compiled in 122ms
+[01:01:46.543] Server  LOG      ✓ Compiled in 283ms
+[01:01:49.124] Server  LOG      ✓ Compiled in 125ms
+[01:01:52.060] Server  LOG      ✓ Compiled in 209ms
+[01:01:55.273] Server  LOG      ✓ Compiled in 116ms
+[01:01:59.239] Server  LOG      ✓ Compiled in 146ms
+[01:03:10.305] Server  LOG      ✓ Compiled in 238ms
+[01:03:43.317] Server  LOG      ✓ Compiled in 123ms
+[01:04:49.492] Server  LOG      ✓ Compiled in 141ms
+[01:04:51.647] Server  LOG      ✓ Compiled in 122ms
+[01:05:16.517] Server  LOG      ✓ Compiled in 223ms
+[01:05:24.131] Server  LOG      ✓ Compiled in 121ms
+[01:05:27.393] Server  LOG      ✓ Compiled in 111ms
+[01:05:38.764] Server  LOG      ✓ Compiled in 129ms
+[01:05:41.711] Server  LOG      ✓ Compiled in 103ms
+[01:05:49.357] Server  LOG      ✓ Compiled in 105ms
+[01:05:51.595] Server  LOG      ✓ Compiled in 99ms
+[01:05:57.006] Server  LOG      ✓ Compiled in 215ms
+[01:05:58.014] Server  LOG      ✓ Compiled in 123ms
+[01:06:05.754] Server  LOG      ✓ Compiled in 112ms
+[01:06:15.010] Server  LOG      ✓ Compiled in 112ms
+[01:06:37.463] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:24.615] Server  LOG      ✓ Compiled in 198ms
+[01:07:31.586] Server  LOG      ✓ Compiled in 146ms
+[01:07:34.801] Server  LOG      ✓ Compiled in 138ms
+[01:07:36.215] Server  LOG      ✓ Compiled in 97ms
+[01:07:49.699] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:53.194] Browser LOG     User message: View Telemetry
+[01:08:14.604] Server  LOG      ✓ Compiled in 417ms
+[01:08:21.993] Browser LOG     User message: View Telemetry
+[01:08:36.873] Server  LOG      ✓ Compiled in 129ms
+[01:08:39.987] Browser LOG     User message: View Telemetry
+[01:08:45.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:46.451] Browser LOG     User message: View Telemetry
+[01:08:59.376] Server  LOG      ✓ Compiled in 150ms
+[01:09:01.024] Server  LOG      ✓ Compiled in 174ms
+[01:09:08.122] Browser LOG     User message: View Telemetry
+[01:15:23.629] Server  LOG      ✓ Compiled in 1080ms
+[01:15:46.780] Server  LOG      ✓ Compiled in 209ms
+[01:15:56.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:59.553] Browser LOG     User message: View Telemetry

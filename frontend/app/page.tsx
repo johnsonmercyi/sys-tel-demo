@@ -5,13 +5,13 @@ import ChatHeader from "@/components/chat/ChatHeader";
 import ChatInput from "@/components/chat/ChatInput";
 import ChatMessages from "@/components/chat/ChatMessages";
 import { ChatMessage } from "@/components/chat/utils/chat.types";
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 
 export default function Home() {
   const [telemetry, setTelemetry] = useState<any>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
 
-  const handleSend = (message: string) => {
+  const handleSend = async (message: string) => {
     setMessages((prevMessages) => [
       ...prevMessages,
       {
@@ -22,20 +22,31 @@ export default function Home() {
       },
     ]);
 
-    const delayAndReply = async () => {
+    const delayAndReply = async (content: any) => {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       setMessages((prevMessages) => [
         ...prevMessages,
         {
           id: crypto.randomUUID(),
           role: "system",
-          content: `Rayda AI understands that you said: "${message}"`,
+          content,
           timestamp: Date.now(),
         },
       ]);
-    }
+    };
 
-    delayAndReply();
+    if (message.trim() === "View Telemetry") {
+      console.log("User message:", message);
+      const data = await window.electron.getTelemetry();
+      setTelemetry(data);
+      delayAndReply(
+        <pre className="mt-4 bg-gray-100 p-4 rounded">
+          {JSON.stringify(data, null, 2)}
+        </pre>
+      );
+    } else {
+      delayAndReply(`Rayda AI understands that you said: "${message}"`);
+    }
   };
 
   useEffect(() => {
@@ -54,7 +65,7 @@ export default function Home() {
   return (
     <ChatContainer>
       <ChatHeader />
-      <ChatMessages messages={messages} />
+      <ChatMessages messages={messages} handleButtonClick={handleSend} />
       <ChatInput onSend={handleSend} />
     </ChatContainer>
   );

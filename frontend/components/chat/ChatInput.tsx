@@ -21,7 +21,7 @@ const ChatInput = ({ onSend }: { onSend: (msg: string) => void }) => {
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           placeholder="Type your message..."
-          className="w-full h-12 px-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full h-12 px-6 pr-16 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
         />
         <Button

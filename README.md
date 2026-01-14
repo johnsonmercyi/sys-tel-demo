@@ -95,6 +95,27 @@ The chat currently operates locally and is intentionally decoupled from telemetr
 
 ---
 
+## 🔁 IPC Communication Flow
+
+Renderer and OS-level logic are strictly separated.
+Renderer (Next.js UI)
+│
+│ IPC invoke (read-only)
+▼
+Preload Script (contextBridge)
+│
+│ Whitelisted APIs
+▼
+Main Process (Electron)
+│
+│ Node.js / OS APIs
+▼
+System Telemetry
+
+_Only explicitly exposed APIs are accessible to the renderer._
+
+---
+
 ## 🚀 Running the Project
 
 ### Development
