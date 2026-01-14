@@ -40,12 +40,9 @@ export default function Home() {
     };
 
     if (message.trim() === "View Telemetry") {
-      console.log("User message:", message);
-      const data = await window.electron.getTelemetry();
-      setTelemetry(data);
       delayAndReply(
         <pre className="mt-4 bg-gray-100 p-4 rounded">
-          {JSON.stringify(data, null, 2)}
+          {JSON.stringify(telemetry, null, 2)}
         </pre>
       );
     } else {

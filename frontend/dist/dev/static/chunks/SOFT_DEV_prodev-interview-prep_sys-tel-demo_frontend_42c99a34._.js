@@ -496,15 +496,12 @@ function Home() {
             setIsTyping(false);
         };
         if (message.trim() === "View Telemetry") {
-            console.log("User message:", message);
-            const data = await window.electron.getTelemetry();
-            setTelemetry(data);
             delayAndReply(/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("pre", {
                 className: "mt-4 bg-gray-100 p-4 rounded",
-                children: JSON.stringify(data, null, 2)
+                children: JSON.stringify(telemetry, null, 2)
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 47,
+                lineNumber: 44,
                 columnNumber: 9
             }, this));
         } else {
@@ -531,7 +528,7 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 71,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatMessages$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -540,20 +537,20 @@ function Home() {
                 isTyping: isTyping
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 72,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$SOFT_DEV$2f$prodev$2d$interview$2d$prep$2f$sys$2d$tel$2d$demo$2f$frontend$2f$components$2f$chat$2f$ChatInput$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 onSend: handleSend
             }, void 0, false, {
                 fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-                lineNumber: 73,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/SOFT_DEV/prodev-interview-prep/sys-tel-demo/frontend/app/page.tsx",
-        lineNumber: 70,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 }

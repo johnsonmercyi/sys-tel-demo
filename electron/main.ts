@@ -11,9 +11,10 @@ let mainWindow: BrowserWindow | null;
 
 function createMainWindow() {
   mainWindow = new BrowserWindow({
-    width: 1200,
+    width: 800,
     height: 800,
     backgroundColor: "#ffffff",
+    resizable: false,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       nodeIntegration: false,
@@ -25,9 +26,9 @@ function createMainWindow() {
   const startURL = getNextAppPath();
   mainWindow.loadURL(startURL);
 
-  if (isDev) {
-    mainWindow.webContents.openDevTools();
-  }
+  // if (isDev) {
+  //   mainWindow.webContents.openDevTools();
+  // }
 }
 
 app.whenReady().then(() => {

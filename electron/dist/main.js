@@ -8,9 +8,10 @@ const path = require("path");
 let mainWindow;
 function createMainWindow() {
     mainWindow = new electron_1.BrowserWindow({
-        width: 1200,
+        width: 800,
         height: 800,
         backgroundColor: "#ffffff",
+        resizable: false,
         webPreferences: {
             preload: path.join(__dirname, "preload.js"),
             nodeIntegration: false,
@@ -20,9 +21,9 @@ function createMainWindow() {
     });
     const startURL = (0, paths_1.getNextAppPath)();
     mainWindow.loadURL(startURL);
-    if (paths_1.isDev) {
-        mainWindow.webContents.openDevTools();
-    }
+    // if (isDev) {
+    //   mainWindow.webContents.openDevTools();
+    // }
 }
 electron_2.app.whenReady().then(() => {
     createMainWindow();

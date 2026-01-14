@@ -6,7 +6,19 @@ It is intentionally scoped to showcase **architecture, security awareness, and d
 
 ---
 
-## 🧱 Architecture Overview
+## 🖥️ Development Environment
+
+This assessment was developed and tested on:
+
+- **OS:** Windows 11
+- **Node.js:** v22.17.0
+- **Electron:** v39.2.5
+
+The application is designed to be cross-platform and should run on Windows, macOS, and Linux, with graceful handling of OS-specific telemetry differences.
+
+---
+
+## 🧱 High-Level Architecture Overview
 
 Electron applications consist of two primary layers:
 
@@ -57,6 +69,16 @@ Not all operating systems expose the same telemetry fields.
 Missing or unavailable values are handled gracefully and returned as `null` rather than causing failures.
 
 OS-specific limitations are documented rather than worked around using unsupported hacks.
+
+---
+
+## ⚠️ Platform Limitations
+
+- Network adapter metadata (e.g. driver version or update timestamps) is not consistently exposed across operating systems.
+- Some fields may be unavailable depending on OS and hardware.
+- Missing values are returned as `null` to avoid failures.
+
+No OS-specific or undocumented system calls were used to bypass these limitations.
 
 ---
 
@@ -137,8 +159,8 @@ This prevents silent or unauthorized system operations and aligns with OS securi
 
 Below is an example of telemetry injected into the chat UI during runtime.
 
-![Telemetry Sample 1](./screenshots/telemetry-img-2.png)
-![Telemetry Sample 2](./screenshots/telemetry-img-1.png)
+![Telemetry Sample 1](./screenshots/telemetry-img-1.png)
+![Telemetry Sample 2](./screenshots/telemetry-img-2.png)
 
 ---
 
