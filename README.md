@@ -136,7 +136,7 @@ This prevents silent or unauthorized system operations and aligns with OS securi
 
 Below is an example of telemetry injected into the chat UI during runtime.
 
-![Telemetry Sample 1](./screenshots/telemetry-img-1.png)
+![Telemetry Sample 1](./screenshots/telemetry-img-2.png)
 ![Telemetry Sample 2](./screenshots/telemetry-img-1.png)
 
 ---
