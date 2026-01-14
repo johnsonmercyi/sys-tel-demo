@@ -170,6 +170,7 @@ Below is an example of telemetry injected into the chat UI during runtime.
 
 ```bash
 npm install
+npm run build
 npm run dev
 ```
 
